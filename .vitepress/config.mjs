@@ -8,19 +8,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Logbooks", link: "/logbooks" },
+      // { text: "Logbooks", link: "/logbooks" },
     ],
 
-    sidebar: [
-      {
-        text: "Logbooks",
-        link: "/logbooks",
-        items: [
-          { text: "Logbook Standards", link: "/logbook-standards" },
-          { text: "Logbook Data Formats", link: "/logbook-data" },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: "Logbooks",
+    //     link: "/logbooks",
+    //     items: [
+    //       { text: "Logbook Standards", link: "/logbook-standards" },
+    //       { text: "Logbook Data Formats", link: "/logbook-data" },
+    //     ],
+    //   },
+    // ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/scatauk/guidelines" },
