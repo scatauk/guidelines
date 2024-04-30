@@ -3,6 +3,7 @@
 layout: home
 
 hero:
+  image: "/scata.svg"
   name: "UK Society of Computing and Technology in Anaesthesia"
   text: "Guidelines & Standards"
   tagline: Digital Excellence in Anaesthesia

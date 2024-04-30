@@ -1,0 +1,8 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #273D75;
+  /* --vp-c-brand-2: #747bff; */
+}
+.vp-doc h4 {
+  margin-top: 20px;
+}

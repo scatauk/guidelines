@@ -6,6 +6,8 @@ export default defineConfig({
   description: "UK Society of Computing and Technology in Anaesthesia",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/logo.svg",
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Logbooks", link: "/logbooks" },
@@ -27,8 +29,9 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "MIT licensed",
-      copyright: "Copyright © 2023",
+      message:
+        "<a style='text-decoration: dashed; text-decoration-line: underline;' href='https://github.com/scatauk/guidelines/blob/main/LICENSE.md'>MIT licensed</a>",
+      copyright: "Copyright © 2024",
     },
 
     externalLinkIcon: true,

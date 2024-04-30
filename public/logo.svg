@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="478px" height="782px" viewBox="0 0 478 782" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy 2</title>
+    <g id="Artboard-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" fill="#273D75" fill-rule="nonzero">
+            <g id="&lt;">
+                <polygon id="Path" points="0 296.391853 478 463 478 345.341416 117.696226 229.928225 478 114.964113 478 0 0 166.608147"></polygon>
+            </g>
+            <g id="&gt;" transform="translate(0, 319)">
+                <polygon id="Path" points="478 166.608147 0 0 0 117.658584 359.85283 232.622696 0 348.035887 0 463 478 296.391853"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
