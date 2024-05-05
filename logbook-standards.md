@@ -28,7 +28,7 @@ This guidance has been developed by SCATA Committee Members _Rob Penders_ (Secre
 &nbsp;<br />&nbsp;
 :::
 
-The standards do not duplicate requirements and recommendation published elsewhere, (e.g. best password handling and security practices. In particular we advocate:
+The standards do not duplicate requirements and recommendation published elsewhere, (e.g. best password handling and security practices. In particular, we advocate:
 
 - The [Code of practice for app store operators and app developers](https://www.gov.uk/government/publications/code-of-practice-for-app-store-operators-and-app-developers) (_Gov.UK_)
 - [Digital Technology Assessment Criteria (DTAC) - Key tools and information](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (_NHS Transformation Directorate_)
@@ -36,9 +36,9 @@ The standards do not duplicate requirements and recommendation published elsewhe
 
 Compliance with the principles of these documents should be considered essential for any digital solution where applicable.
 
-Throughout the SCATA standards, the terms [**ESSENTIAL**], [**DESIRABLE**] and [**OPTIONAL**] are used and highlighted. [**ESSENTIAL**] requirements are considered an absolute and a product would not be considered acceptable if this criteria were absent. [**DESIRABLE**] criteria could be absent with good cause or mitigation, but a user should exercise caution when choosing a solution should this criteria be absent. [**OPTIONAL**] features cover caveats that may not apply to all solutions and where present may have essential or desirable stipulations.
+Throughout the SCATA standards, the terms [**ESSENTIAL**], [**DESIRABLE**] and [**OPTIONAL**] are used and highlighted. [**ESSENTIAL**] requirements are considered an absolute and a product would not be considered acceptable if these criteria were absent. [**DESIRABLE**] criteria could be absent with good cause or mitigation, but a user should exercise caution when choosing a solution should these criteria be absent. [**OPTIONAL**] features cover caveats that may not apply to all solutions and where present may have essential or desirable stipulations.
 
-Additionally, we have assembled a set of criteria (Appendix 1) to be used alongside a maturity model and industry-standard processes in order to evaluate and improve logbook solutions.
+Additionally, we have assembled a set of criteria (Appendix 1) to be used alongside a maturity model and industry-standard processes to evaluate and improve logbook solutions.
 
 ## Standards
 
@@ -59,7 +59,7 @@ A logbook released as a paid-for iPhone app ceased working following an update t
 If an app is provided [**OPTIONAL**], it should be available on more than one major mobile device platform [**DESIRABLE**]. To achieve this, solution developers should consider cross-platform development/deployment: a shared code base used for cross-platform support will reduce the risk of the logbook becoming obsolete on one platform (e.g. change in development personnel) and reduces the risk of incompatibilities should users switch platforms.
 
 ::: tip Technology Insight
-Android and iOS use different languages for their application development. This often increases the development overheads for teams producing apps for both platforms as they will require development teams working in parallel for the different platforms. However there are a variety of cross-platform development tools (e.g. Flutter) allowing the production of apps for both iOS and Android from a single code base.
+Android and iOS use different languages for their application development. This often increases the development overheads for teams producing apps for both platforms as they will require development teams working in parallel for the different platforms. However, there are a variety of cross-platform development tools (e.g. Flutter) allowing the production of apps for both iOS and Android from a single code base.
 :::
 
 ### B. Storage
@@ -86,7 +86,7 @@ A human-readable data format with a documented structure should be available [**
 
 ::: info Case study
 
-1. A logbook solution provides its data storage files in a human readable format with an open source description of the standard being used. This facilitates the migration or import of data by other products and reduces the overall user risk of data loss in the long term.
+1. A logbook solution provides its data storage files in a human readable format with an open-source description of the standard being used. This facilitates the migration or import of data by other products and reduces the overall user risk of data loss in the long term.
 
 2. A logbook solution used a proprietary and undocumented file format. When the software became obsolete, users were unable to decode the saved data and export it to a new solution.
 
@@ -109,7 +109,7 @@ Due to a software limitation, a logbook solution only allowed the export of a li
 
 #### 5. Deletion
 
-Uses should be able to permanently and securely delete their logbook content and/or account and all associated data from any cloud-based services [**ESSENTIAL**].
+Users should be able to delete their account, logbook content and all associated data from any cloud-based services, permanently and securely [**ESSENTIAL**].
 
 ### C. Reporting
 
@@ -127,7 +127,7 @@ Until updated guidance is released from the RCoA Training Committee, a summary r
 
 #### 1. Create, Read, Update, Delete
 
-There should be functionality to record cases, events or clinical episodes as per the requirements of the CCT curriculum and the scope of practice of all grades of anaesthetist [**ESSENTIAL**]. There should be a means of creating, viewing, updating and deleting all user-generated data including cases, reports, summaries and customisations [**ESSENTIAL**].
+There should be functionality to record cases, events, or clinical episodes as per the requirements of the CCT curriculum and the scope of practice of all grades of anaesthetist [**ESSENTIAL**]. There should be a means of creating, viewing, updating, and deleting all user-generated data including cases, reports, summaries and customisations [**ESSENTIAL**].
 
 #### 2. Patient Identifiable data
 
@@ -141,7 +141,7 @@ The provider's staff do not have routine access to logbook data. [**ESSENTIAL**]
 
 #### 2. Data transfer
 
-Logbook data, including sanitised or aggregated data, should not be sold or transferred to third parties unless it is to fulfill legal or statutory requirements [**ESSENTIAL**].
+Logbook data, including sanitised or aggregated data, should not be sold or transferred to third parties unless it is to fulfil legal or statutory requirements [**ESSENTIAL**].
 
 #### 3. Research
 
@@ -165,21 +165,21 @@ Some technology solutions have a "use of data in perpetuity" clause which does n
 
 5. A user should be able to initiate an export of the entire logbook data to a human readable format (e.g. JSON, CSV, XML).
 
-6. Uses should be able to permanently and securely delete their logbook content and/or account and all associated data from any cloud-based services.
+6. Users should be able to delete their account, logbook content and all associated data from any cloud-based services, permanently and securely.
 
 7. Summary report production should be flexible and configurable by the user.
 
 8. Users should be able to filter cases to include in the report summary based on date range/placement and specialty.
 
-9. There should be functionality to record cases, events or clinical episodes as per the requirements of the CCT curriculum and the scope of practice of all grades of anaesthetist.
+9. There should be functionality to record cases, events, or clinical episodes as per the requirements of the CCT curriculum and the scope of practice of all grades of anaesthetist.
 
-10. There should be a means of creating, viewing, updating and deleting all user-generated data including cases, reports, summaries and customisations.
+10. There should be a means of creating, viewing, updating, and deleting all user-generated data including cases, reports, summaries and customisations.
 
 11. A logbook should not routinely collect patient identifiable data or images.
 
 12. The provider's staff do not have routine access to logbook data.
 
-13. Logbook data, including sanitised or aggregated data, should not be sold or transferred to third parties unless it is to fulfill legal or statutory requirements.
+13. Logbook data, including sanitised or aggregated data, should not be sold or transferred to third parties unless it is to fulfil legal or statutory requirements.
 
 14. Logbook data, even anonymised, should not be used in research, aggregate reports and publications, commercial purposes (except for internal evaluation, improvement or to facilitate individual user support requests) or publication without the user’s "opt in" consent.
 
@@ -205,7 +205,7 @@ Some technology solutions have a "use of data in perpetuity" clause which does n
 
 8. Where import functionality is provided, it is supported by adequate documentation.
 
-9. A user is able to export filtered subsets of logbook data (e.g. date range, specialty).
+9. A user can export filtered subsets of logbook data (e.g. date range, specialty).
 
 10. Summary data used for reports can be cross-filtered by multiple user-defined categories including age range, level supervision and specialty.
 
@@ -215,7 +215,7 @@ Some technology solutions have a "use of data in perpetuity" clause which does n
 
 ### Optional
 
-1. Apps _could_ be be provided, though web access is strongly advised as either the primary method of accessing the product or as an alternative means of accessing the logbook data.
+1. Apps _could_ be provided, though web access is strongly advised as either the primary method of accessing the product or as an alternative means of accessing the logbook data.
 
 2. Users _could_ be custodians of their own data (i.e. cloud services are not utilised) subject to appropriate functionality and documentation.
 
@@ -223,7 +223,7 @@ Some technology solutions have a "use of data in perpetuity" clause which does n
 
 ## Appendix: Logbook Maturity Model Assessment
 
-The criteria below can be used alongside a maturity model in order to evaluate and improve logbook solutions.
+The criteria below can be used alongside a maturity model to evaluate and improve logbook solutions.
 
 SCATA recommends the [Capability Maturity Model, CMM](https://insights.sei.cmu.edu/documents/1092/1993_005_001_16211.pdf), a framework that defines five maturity levels for continual process improvement:
 
@@ -237,9 +237,9 @@ SCATA recommends the [Capability Maturity Model, CMM](https://insights.sei.cmu.e
 >
 > 5: Optimising
 
-This framework is integral to most management systems and can assist in the assessment and improvement of development processes. However a maturity model has limitations when undertaking a static or comparative analysis of an end product.
+This framework is integral to most management systems and can assist in the assessment and improvement of development processes. However, a maturity model has limitations when undertaking a static or comparative analysis of a product.
 
-The criteria outlined below are provided to fill this gap and can be assessed as [**ABSENT/UNCLEAR**], [**BASIC**] (where there is partial, incomplete or suboptimal functionality) and [**MATURE**] (where complete, best practice functionality is evident).
+The criteria outlined below are provided to fill this gap and can be assessed as [**ABSENT/UNCLEAR**], [**BASIC**] (where there is partial, incomplete, or suboptimal functionality) and [**MATURE**] (where complete, best practice functionality is evident).
 
 ### Criteria
 
