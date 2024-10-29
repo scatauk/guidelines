@@ -16,16 +16,16 @@ export default defineConfig({
       { text: "Logbooks", link: "/logbooks" },
     ],
 
-    sidebar: [
-      {
-        text: "Logbooks",
-        link: "/logbooks",
-        items: [
-          { text: "Logbook Standards", link: "/logbook-standards" },
-          { text: "Logbook Data Formats", link: "/logbook-data" },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: "Logbooks",
+    //     link: "/logbooks",
+    //     items: [
+    //       { text: "Logbook Standards", link: "/logbook-standards" },
+    //       { text: "Logbook Data Formats", link: "/logbook-data" },
+    //     ],
+    //   },
+    // ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/scatauk/guidelines" },
