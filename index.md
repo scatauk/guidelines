@@ -16,7 +16,7 @@ hero:
   #     link: /logbook-data
 
 features:
-  - title: Coming soon
-    details: This site is in development
+  - title: Logbooks
+    details: Standards for anaesthesia logbook software
+    link: /logbooks
 ---
-
