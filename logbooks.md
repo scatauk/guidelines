@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: Logbook Standards
-    details: Standards for anaesthesia logbook software
+    details: Technical Minimum Standards for Anaesthetic Logbooks
     link: /logbook-standards
   - title: Logbook Data Formats
     details: Technical specifications for anaesthesia logbook data storage and/or export
