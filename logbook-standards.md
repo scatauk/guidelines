@@ -22,7 +22,7 @@ RCoA: 28th October 2024
 
 The [Royal College of Anaesthetists (RCoA)](https://www.rcoa.ac.uk) has asked the [UK Society for Computing And Technology in Anaesthesia (SCATA)](https://www.scata.org.uk) to develop a set of _technical minimum standards for how an acceptable anaesthetic logbook functions_ in terms of _data storage_ and _management_ so that members have guidance and assurance on the selection of safe and acceptable logbook solutions.
 
-This guidance was developed by SCATA Committee Members _Rob Penders_ (Secretary) and _JP Lomas_ (Chairman), with input from a Working Group convened in February 2024. A consultation for input from all SCATA members was undertaken in April 2024 alongside views from relevant RCoA committees and feedback has been incorporated.
+This guidance was developed by SCATA Committee Members Rob Penders (Secretary) and JP Lomas (Chairman), with input from a Working Group convened in February 2024. In April 2024, input from all SCATA members was sought, alongside views from relevant RCoA committees, and feedback has been incorporated.
 
 The standards do not duplicate requirements and recommendations published elsewhere (e.g. best password handling and security practices. In particular, we advocate:
 
@@ -44,7 +44,7 @@ Additionally, we have assembled a set of criteria ([Appendix](#appendix-logbook-
 
 Web access is strongly advised as either the primary method of accessing the product or as an alternative means of accessing the logbook data. [**DESIRABLE**]
 
-The vast majority of browser-based code is entirely backwards compatible, meaning that as new browser versions are made, older software will still be supported. The converse is not true of apps, where device operating system updates can render existing apps obsolete.
+The vast majority of browser-based code is backwards compatible, meaning that older software will still be supported as new browser versions are made. The converse is not true of apps, where device operating system updates can render existing apps obsolete.
 
 ::: info Case study
 A logbook released as a paid-for iPhone app ceased working following an update to Apple's iOS operating system, resulting in users losing access to their data.
@@ -52,7 +52,7 @@ A logbook released as a paid-for iPhone app ceased working following an update t
 
 #### 2. Apps
 
-If an app is provided [**OPTIONAL**], it should be available on more than one major mobile device platform [**DESIRABLE**]. To achieve this, solution developers should consider cross-platform development/deployment: a shared code base used for cross-platform support will reduce the risk of the logbook becoming obsolete on one platform (e.g. change in development personnel) and reduce the risk of incompatibilities should users switch platforms.
+If an app is provided [**OPTIONAL**], it should be available on multiple major mobile device platforms [**DESIRABLE**]. To achieve this, solution developers should consider cross-platform development/deployment: a shared code base used for cross-platform support will reduce the risk of the logbook becoming obsolete on one platform (e.g. a change in development personnel) and the risk of incompatibilities should users switch platforms.
 
 ::: tip Technology Insight
 Android and iOS use different languages for application development. This often increases the development overheads for teams producing apps for both platforms, as it requires development teams to work in parallel for the different platforms. However, there are a variety of cross-platform development tools (e.g. Flutter) that allow the production of apps for both iOS and Android from a single code base.
@@ -68,9 +68,9 @@ Backups should be automated and not require any user activity [**ESSENTIAL**]. C
 Version control allows users to roll back their data to a certain point in time and is supported by some cloud storage providers (e.g. Dropbox, Livedrive). This allows for data recovery in a wider range of failure scenarios. Similar functionality can be achieved crudely by storing or emailing timestamped data files.
 :::
 
-Where cloud-based storage or off-device backup is the primary data store, there should be minimal on-device data storage [**DESIRABLE**], usually limited to login credentials, cookies, tokens or cached data to facilitate off-line working in the event of poor network conditions.
+Where cloud-based storage or off-device backup is the primary data store, there should be minimal on-device data storage [**DESIRABLE**], usually limited to login credentials, cookies, tokens or cached data to facilitate offline working in the event of poor network conditions.
 
-Where the user is left to be custodians of their own data (i.e. cloud services are _not_ utilised) [**OPTIONAL**], there should be means and instructions to backup and restore this information [**DESIRABLE**] and advice on best backup practices provided as part of the product documentation [**DESIRABLE**].
+Where the user is left to be custodians of their own data (i.e., cloud services are _not_ utilised) [**OPTIONAL**], means and instructions to backup and restore this information [**DESIRABLE**] and advice on best backup practices should be provided as part of the product documentation [**DESIRABLE**].
 
 ::: info Case study
 A logbook solution is provided as a highly functional spreadsheet. This relies on the user to continually save and backup their data. Unless the user takes manual action, there is no version control or off-device backup, increasing the risk of data loss.
@@ -82,9 +82,9 @@ A human-readable data format with a documented structure should be available [**
 
 ::: info Case study
 
-1. A logbook solution provides its data storage files in a human-readable format with an open-source description of the standard being used. This facilitates the migration or import of data by other products and reduces the overall user risk of data loss in the long term.
+1. A logbook solution provides data storage files in a human-readable format with an open-source description of the standard used. This facilitates the migration or import of data by other products and reduces the overall user risk of data loss in the long term.
 
-2. A logbook solution used a proprietary and undocumented file format. When the software became obsolete, users could not decode the saved data and export it to a new solution.
+2. A logbook solution used a proprietary and undocumented file format. Users could not decode the saved data when the software became obsolete and could not export it to a new solution.
 
 _NB. There are no current standards for logbook data storage or export file formats, though these are being discussed and developed._
 :::
@@ -95,7 +95,7 @@ _NB. There are no current standards for logbook data storage or export file form
 
 #### 4. Export
 
-A user should be able to initiate an export of the entire logbook data to a human readable format (e.g. JSON, CSV, XML) [**ESSENTIAL**].
+A user should be able to initiate an export of the entire logbook data to a human-readable format (e.g. JSON, CSV, XML) [**ESSENTIAL**].
 
 Exporting filtered subsets of logbook data (e.g. date range, speciality) provides the best functionality [**DESIRABLE**].
 
@@ -109,7 +109,7 @@ Users should be able to permanently and securely delete their accounts, logbook 
 
 ### C. Reporting
 
-Reporting requirements for anaesthetists in training are determined by the RCoA Training Committee based on the CCT curriculum requirements.
+The RCoA Training Committee determines reporting requirements for anaesthetists in training based on the CCT curriculum requirements.
 
 There are recommendations for logbook summary data for the [RCoA 2010 CCT Curriculum (page 87)](https://rcoa.ac.uk/sites/default/files/documents/2019-08/TRG-CU-CCT-ANAES2010.pdf), but this is not yet available for the 2021 curriculum.
 
@@ -161,7 +161,7 @@ Some technology solutions have a "use of data in perpetuity" clause, which does 
 
 3. A human-readable data format with a documented structure should be available as either a primary means of storage or export functionality.
 
-4. If there is import functionality, rollback should occur if the process is unsuccessful.
+4. If import functionality exists, rollback should occur if the process is unsuccessful.
 
 5. A user should be able to initiate an export of the entire logbook data to a human-readable format (e.g. JSON, CSV, XML).
 
@@ -177,7 +177,7 @@ Some technology solutions have a "use of data in perpetuity" clause, which does 
 
 11. A logbook should not routinely collect patient-identifiable data or images.
 
-12. Logbook providers should provide terms of service for the use of their products.
+12. Logbook providers should provide terms of service for using their products.
 
 13. Logbook providers should be responsive to requests for technical support from their users.
 
@@ -243,9 +243,9 @@ SCATA recommends the [Capability Maturity Model, CMM](https://insights.sei.cmu.e
 >
 > 5: Optimising
 
-This framework is integral to most management systems and can assist in the assessment and improvement of development processes. However, a maturity model has limitations when undertaking a static or comparative analysis of a product.
+This framework is integral to most management systems and can assist in assessing and improving development processes. However, a maturity model has limitations when undertaking a static or comparative analysis of a product.
 
-The criteria outlined below are provided to fill this gap and can be assessed as [**ABSENT/UNCLEAR**], [**BASIC**] (where there is partial, incomplete, or suboptimal functionality) and [**MATURE**] (where complete, best practice functionality is evident).
+The criteria outlined below are provided to fill this gap and can be assessed as [**ABSENT/UNCLEAR**], [**BASIC**] (where there is partial, incomplete, or suboptimal functionality) and [**MATURE**] (where complete, best-practice functionality is evident).
 
 ### Criteria
 
@@ -263,8 +263,8 @@ The criteria outlined below are provided to fill this gap and can be assessed as
   - Platform
   - Features
     - Achieves recognised minimal dataset
-      - Now: summary page from 2010 curriculum
-      - Upcoming: Updated standards / 2021 curriculum
+      - Now: summary page from 2010 Curriculum
+      - Upcoming: Updated standards / 2021 Curriculum
     - Episode logging
     - CRUD
     - Summary
@@ -282,4 +282,4 @@ The criteria outlined below are provided to fill this gap and can be assessed as
 
 ## Feedback & Contributions
 
-As advocates of open standards, SCATA welcomes feedback and contributions from members and non-members alike.  Pull requests via [Github](https://github.com/scatauk/guidelines/blob/main/logbook-standards.md) are welcome or any comments can be sent to [chairman@scata.org.uk](mailto:chairman@scata.org.uk).
+As advocates of open standards, SCATA welcomes feedback and contributions from members and non-members alike.  Pull requests via [Github](https://github.com/scatauk/guidelines/blob/main/logbook-standards.md) are welcome, or any comments can be sent to [chairman@scata.org.uk](mailto:chairman@scata.org.uk).
