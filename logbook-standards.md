@@ -3,20 +3,20 @@ outline: deep
 sidebar: false
 ---
 
-# Logbook Standards <Badge type="warning" text="Pre-release" />
+# Logbook Standards <Badge type="info" text="v1.0" />
 
 Technical Minimum Standards for Anaesthetic Logbooks
 
 ::: info Approval
-SCATA Committee: 28th April 2024\
-RCoA: 28th October 2024
+SCATA Committee: 28 April 2024\
+RCoA: 28 October 2024
 :::
 
 ## Version Control
 
 | Version | Date | Change log     |
 | ------- | ---- | -------------- |
-| 1.0     | TBA  | Public release |
+| 1.0     | 20 November 2024  | Public release |
 
 ## Background
 
