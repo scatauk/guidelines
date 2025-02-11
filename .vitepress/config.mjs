@@ -41,7 +41,7 @@ export default defineConfig({
     footer: {
       message:
         "<p><a href='https://www.scata.org.uk' style='text-decoration: dashed; text-decoration-line: underline;'><img width='12px' src='logo.svg' style='display: inline; padding-right: 4px;'>SCATA Homepage</a></p><p><a style='text-decoration: dashed; text-decoration-line: underline;' href='https://github.com/scatauk/guidelines/blob/main/LICENSE.md'>MIT licensed</a></p>",
-      copyright: "Copyright © 2024",
+      copyright: "Copyright © 2024-2025",
     },
 
     externalLinkIcon: true,
